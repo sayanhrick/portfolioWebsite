@@ -1,0 +1,195 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    max-width: -webkit-fill-available;
+}
+
+
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    max-width: -webkit-fill-available;
+}
+
+
+/* header or naviation part */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
+    background-color: rgb(8, 44, 88);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:  white;
+}
+
+nav ul li a:hover{
+    color: rgb(133, 133, 142);
+    font-size: 1.4rem;
+}
+
+.left{
+    font-size: 1.5rem;
+    
+}
+
+
+
+
+/* main section of the body */
+
+
+/* first section */
+.firstSection{
+        display: flex;
+        justify-content: space-around;
+        margin: 80px 0;
+}
+
+.firstSection >div{
+    width: 30%;
+    
+}
+
+.firstSection.purple{
+    color: purple;
+}
+
+
+.leftSection{
+    margin-top: 70px;
+    font-size: 3rem;
+    width: 20%;
+    
+}
+
+.btn{
+    padding: 12px;
+    background-color: #83858a;
+    color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 6px;
+    font-size: 10px;
+    cursor: pointer;
+
+}
+
+.rightSection{
+    width: 80%;
+    margin: 50px 0;
+}
+
+
+
+/* second section */
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.gray{
+    color: gray;
+}
+hr{
+    border: 0;
+    background: rgb(57, 201, 201);
+    margin: auto;
+    height: 1.2;
+}
+
+.secondSection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical{
+    height: 30px;
+    width: 1.5px;
+    background: white;
+    margin: 0 90px;
+
+}
+
+
+
+
+/* verticle box */
+
+.verticleTitle {
+    position: relative;
+    top: 30px;
+    color: rgb(16, 187, 235);
+    left: -20px;
+    display: inline;
+}
+
+.verticle-desc {
+    position: relative;
+    top: 40px;
+    left: -15px;
+    color: gray;
+    font-size: 10px;
+    display: -webkit-flex;
+}
+
+
+
+/* footer style */
+
+footer {
+    /* text-align: center; */
+    background-color: #0e0e1a;
+    justify-content: baseline; 
+    max-width: -webkit-fill-available;
+    max-height:fit-content;
+}
+
+.footerFirst {
+    display: block;
+    left: -100px;
+}
+.footer {
+    
+    padding: 23px ;
+    height: 10px;
+    margin: 22px 120px;
+}
+
+.footerRights {
+   justify-content: center;
+   position: relative;
+   display: flex;
+
+   color: gray;
+   max-height: -webkit-fill-available;
+   
+
+   
+    
+}
+
+/* animation of js design */
+
+#element{
+    color: rgb(20, 96, 183);
+}
