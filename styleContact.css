@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    max-width: --webkit-fill-available;
+    
+    
+}
+
+
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    height: 80vh;
+    
+}
+
+
+/* header or naviation part */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
+    background-color: rgb(8, 44, 88);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:  white;
+}
+
+nav ul li a:hover{
+    color: rgb(133, 133, 142);
+    font-size: 1.4rem;
+}
+
+.left{
+    text-align: center;
+    margin-left: -30px;
+    font-size: 1.5rem;
+    width: 50%;
+    
+}
+.right{
+    width: 50%;
+
+}
+
+
+.container{
+    margin-top: 100px;
+    height: 500px;
+    width: 40%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 1000px;
+    border-radius: 10px;
+
+}
+.formId{
+    
+    font-size: 50px;
+    height: 100%;
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    
+    
+  
+   
+}
+
+form input{
+    margin-top: 5px;
+    height: 50px;
+    border-radius: 7px;
+    
+}
+
+button{
+    
+    align-items: center;
+    margin-top: 10px;
+    background-color:rgb(133, 133, 142);
+    height: 50px;
+    margin-top: 27px;
+    border-radius: 7px;
+    color: burlywood;
+}
+
+textarea{
+    margin-top: 10px;
+    border-radius: 7px;
+    border: 3px;
+}

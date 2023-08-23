@@ -4,13 +4,14 @@
     margin: 0;
     padding: 0;
     max-width: -webkit-fill-available;
+    
 }
 
 
 body{
     background-color: rgb(0, 0, 33);
     color: white;
-    max-width: -webkit-fill-available;
+    
 }
 
 
@@ -18,7 +19,7 @@ body{
 
 nav{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     height: 85px;
     background-color: rgb(8, 44, 88);
@@ -44,9 +45,23 @@ nav ul li a:hover{
     font-size: 1.4rem;
 }
 
+.btn:hover{
+    color: rgb(10, 10, 187);
+    font-size: 0.75rem;
+    list-style-type: none;
+   
+}
+
 .left{
+    text-align: center;
+    margin-left: -30px;
     font-size: 1.5rem;
+    width: 50%;
     
+}
+.right{
+    width: 50%;
+
 }
 
 
@@ -141,6 +156,7 @@ hr{
     color: rgb(16, 187, 235);
     left: -20px;
     display: inline;
+    max-inline-size: 100px;
 }
 
 .verticle-desc {
@@ -193,3 +209,40 @@ footer {
 #element{
     color: rgb(20, 96, 183);
 }
+
+
+ /* media screeen :start */
+
+ @media (orientation: portrait) {
+
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 85px;
+        background-color: rgb(8, 44, 88);
+    }
+    
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul li{
+        list-style-type: none;
+        margin: 0 23px;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color:  white;
+    }
+    
+    nav ul li a:hover{
+        color: rgb(133, 133, 142);
+        font-size: 1.0rem;
+    }
+    
+    
+ }
